@@ -1,4 +1,4 @@
-// BizFloat Africa — shared site behavior
+// BizFloat Africa - shared site behavior
 
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile nav toggle
