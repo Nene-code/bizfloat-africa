@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — BizFloat Africa</title>
+<meta name="description" content="Get in touch with the BizFloat Africa team, request the Stitch AI prototype walkthrough, or find us at Demo Day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner container">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24"><path fill="#fff" d="M12 2c-4.4 0-8 2.7-8 6 0 2 1.3 3.7 3.2 4.8-.1.9-.5 1.9-1.2 2.8-.2.3 0 .7.4.6 1.6-.3 2.9-.9 3.8-1.5.6.1 1.2.2 1.8.2 4.4 0 8-2.7 8-6s-3.6-6-8-6z"/><circle cx="9" cy="8" r="1.2" fill="#0F6E5B"/><circle cx="12" cy="8" r="1.2" fill="#0F6E5B"/><circle cx="15" cy="8" r="1.2" fill="#0F6E5B"/></svg>
+      </span>
+      BizFloat Africa
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="impact.html">Impact</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">See the Prototype</a>
+      <button class="nav-toggle" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="6" width="18" height="2.6" rx="1.3"/><rect x="3" y="11" width="18" height="2.6" rx="1.3"/><rect x="3" y="16" width="18" height="2.6" rx="1.3"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px;">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:8px;">
+      <span class="eyebrow">Let's Talk</span>
+      <h1>Want to see BizFloat Africa in action?</h1>
+      <p class="hero-sub" style="margin:0 auto;">Whether you're here for Demo Day, curious about the prototype, or just want to say hello — Group 15 would love to hear from you.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="grid grid-2" style="align-items:start;">
+      <div class="card">
+        <h3>Send us a message</h3>
+        <p style="margin-bottom:22px;">This is a prototype form for the capstone walkthrough — no message is sent yet, but this is exactly how it will work in the live app.</p>
+        <form onsubmit="event.preventDefault(); this.querySelector('.form-success').style.display='flex';" style="display:flex; flex-direction:column; gap:16px;">
+          <div>
+            <label style="font-family:var(--font-display); font-weight:600; font-size:0.9rem; color:var(--teal-dark); display:block; margin-bottom:6px;">Your name</label>
+            <input type="text" required placeholder="e.g. Amaka Nwosu" style="width:100%; padding:14px 16px; border-radius:12px; border:2px solid var(--sand-deep); font-family:var(--font-body); font-size:1rem; background:var(--sand);">
+          </div>
+          <div>
+            <label style="font-family:var(--font-display); font-weight:600; font-size:0.9rem; color:var(--teal-dark); display:block; margin-bottom:6px;">Email</label>
+            <input type="email" required placeholder="you@example.com" style="width:100%; padding:14px 16px; border-radius:12px; border:2px solid var(--sand-deep); font-family:var(--font-body); font-size:1rem; background:var(--sand);">
+          </div>
+          <div>
+            <label style="font-family:var(--font-display); font-weight:600; font-size:0.9rem; color:var(--teal-dark); display:block; margin-bottom:6px;">Message</label>
+            <textarea required rows="4" placeholder="Tell us what you'd like to know" style="width:100%; padding:14px 16px; border-radius:12px; border:2px solid var(--sand-deep); font-family:var(--font-body); font-size:1rem; background:var(--sand); resize:vertical;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+          <div class="form-success" style="display:none; align-items:center; gap:10px; color:var(--status-healthy); font-family:var(--font-display); font-weight:600;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#2E9E5B"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.5 14.5-4-4 1.4-1.4 2.6 2.6 6.6-6.6 1.4 1.4-8 8z"/></svg>
+            Thanks — this is how a sent message will look.
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <div class="card" style="margin-bottom:24px;">
+          <div class="icon-badge teal"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg></div>
+          <h3>Demo Day</h3>
+          <p>Catch the live pitch and full prototype walkthrough on <strong>July 8th</strong> — built for both technical and non-technical audiences.</p>
+        </div>
+        <div class="card" style="margin-bottom:24px;">
+          <div class="icon-badge gold"><svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 3.8 8.7 9 10 5.2-1.3 9-5 9-10V6l-9-4z"/></svg></div>
+          <h3>Women Techsters Bootcamp</h3>
+          <p>BizFloat Africa is a Capstone Project by Group 15, built for Tech4Dev's Women Techsters Bootcamp.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge teal"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/></svg></div>
+          <h3>Where we're building for</h3>
+          <div class="lang-row" style="margin-top:12px;">
+            <span class="lang-chip">🇨🇲 Cameroon</span>
+            <span class="lang-chip">🇳🇬 Nigeria</span>
+            <span class="lang-chip">🇬🇭 Ghana</span>
+            <span class="lang-chip">🇰🇪 Kenya</span>
+            <span class="lang-chip">🇸🇳 Senegal</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="logo-mark" style="width:32px;height:32px;">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#fff" d="M12 2c-4.4 0-8 2.7-8 6 0 2 1.3 3.7 3.2 4.8-.1.9-.5 1.9-1.2 2.8-.2.3 0 .7.4.6 1.6-.3 2.9-.9 3.8-1.5.6.1 1.2.2 1.8.2 4.4 0 8-2.7 8-6s-3.6-6-8-6z"/></svg>
+          </span>
+          <span>BizFloat Africa</span>
+        </div>
+        <p style="color:rgba(255,255,255,0.65); max-width:280px;">An AI-powered financial inclusion platform for micro and small business owners across Africa. Women Techsters Bootcamp Capstone, Group 15.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="features.html">Features</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="impact.html">SDG Impact</a>
+      </div>
+      <div>
+        <h4>Project</h4>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Target Markets</h4>
+        <a href="#">Cameroon · Nigeria</a>
+        <a href="#">Ghana · Kenya</a>
+        <a href="#">Senegal</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BizFloat Africa · Group 15 · Women Techsters Bootcamp</span>
+      <span>SDG 8 · SDG 10 · SDG 9</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
